@@ -91,7 +91,7 @@ whatweb -v -a 3 172.17.52.201
 Output:
 ![6](https://github.com/karthickop6/InformationGathering/assets/72570119/0cc0f251-f7a7-422c-8de7-0cec363b3e0f)
 
-
+![7](https://github.com/karthickop6/InformationGathering/assets/72570119/a0438894-bf49-4344-9f6b-807d9bbbf75f)
 httprint:
 
 ```
@@ -99,8 +99,8 @@ httprint -h 172.17.52.201 -s /usr/share/httprint/signatures.txt -P0 |more
 ```
 
 output:
+![8](https://github.com/karthickop6/InformationGathering/assets/72570119/d049c8cd-98bb-4c45-ac09-dbeab86904cb)
 
-![7](https://github.com/karthickop6/InformationGathering/assets/72570119/a0438894-bf49-4344-9f6b-807d9bbbf75f)
 
 Tracing the Location
 
@@ -110,22 +110,26 @@ TCP Traceroute:
 sudo traceroute -T www.saveetha.ac.in
 ```
 Output:
-
+![9](https://github.com/karthickop6/InformationGathering/assets/72570119/856b526d-54fc-4335-a0e3-dcb598ca7749)
 
 
 UDP Traceroute:
-
+```
+sudo traceroute -U www.saveetha.ac.in
+```
 Output:
 
 
-![8](https://github.com/karthickop6/InformationGathering/assets/72570119/d049c8cd-98bb-4c45-ac09-dbeab86904cb)
+![11](https://github.com/karthickop6/InformationGathering/assets/72570119/90528012-d8aa-488d-a98f-ac86a47c2d33)
+
 
 ICMP Traceroute:
 ```
 sudo traceroute  www.saveetha.ac.in
 ```
 Output:
-![9](https://github.com/karthickop6/InformationGathering/assets/72570119/856b526d-54fc-4335-a0e3-dcb598ca7749)
+
+![12](https://github.com/karthickop6/InformationGathering/assets/72570119/71633192-3e89-48d9-a6cb-e5d8fbd47504)
 
 
 ## RESULT:
